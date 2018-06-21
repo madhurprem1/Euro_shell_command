@@ -1,0 +1,37 @@
+ans1:
+file data
+- rw-r--r-- data
+
+ans2:
+file data
+- rw-r----- data
+
+ans3:
+- r--rw---- prog1
+
+ans4:
+file data
+- rw-rw--w- data
+
+ans5:
+chmod a-rwx dir1
+
+ans6:
+chmod 710 data
+
+ans7;
+chmod a-w *.c
+
+ans8:
+umask u+rw filename
+umask u+x dirname
+
+and9:
+umask u+rw,g+r filename
+umask 067 dirname
+
+ans10:
+touch test
+
+ans11:
+sudo rm *.c
